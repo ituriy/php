@@ -1,0 +1,267 @@
+[Tue Feb 13 19:18:55.243380 2024] [mpm_winnt:notice] [pid 8680:tid 424] AH00455: Apache/2.4.58 (Win64) PHP/8.3.2 configured -- resuming normal operations
+[Tue Feb 13 19:18:55.243380 2024] [mpm_winnt:notice] [pid 8680:tid 424] AH00456: Apache Lounge VS17 Server built: Jan 30 2024 19:01:23
+[Tue Feb 13 19:18:55.243380 2024] [core:notice] [pid 8680:tid 424] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Feb 13 19:18:55.243380 2024] [mpm_winnt:notice] [pid 8680:tid 424] AH00418: Parent: Created child process 7968
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 7968:tid 428] AH00354: Child: Starting 64 worker threads.
+[Tue Feb 13 19:19:05.748991 2024] [php:error] [pid 7968:tid 1092] [client ::1:49415] script 'C:/localhost/index.php' not found or unable to stat
+[Tue Feb 13 19:19:52.750545 2024] [php:error] [pid 7968:tid 1080] [client ::1:49433] script 'C:/localhost/index.php' not found or unable to stat
+[Tue Feb 13 19:19:55.119806 2024] [php:error] [pid 7968:tid 1080] [client ::1:49433] script 'C:/localhost/index.php' not found or unable to stat
+[Tue Feb 13 19:20:00.158335 2024] [mpm_winnt:notice] [pid 8680:tid 424] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Feb 13 19:20:35.010398 2024] [mpm_winnt:notice] [pid 7968:tid 428] AH00362: Child: Waiting 30 more seconds for 1 worker threads to finish.
+[Tue Feb 13 19:20:54.904878 2024] [mpm_winnt:notice] [pid 7968:tid 428] AH00364: Child: All worker threads have exited.
+[Tue Feb 13 19:21:22.396974 2024] [core:warn] [pid 8136:tid 424] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Feb 13 19:21:22.443860 2024] [mpm_winnt:notice] [pid 8136:tid 424] AH00455: Apache/2.4.58 (Win64) PHP/8.3.2 configured -- resuming normal operations
+[Tue Feb 13 19:21:22.443860 2024] [mpm_winnt:notice] [pid 8136:tid 424] AH00456: Apache Lounge VS17 Server built: Jan 30 2024 19:01:23
+[Tue Feb 13 19:21:22.443860 2024] [core:notice] [pid 8136:tid 424] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Feb 13 19:21:22.443860 2024] [mpm_winnt:notice] [pid 8136:tid 424] AH00418: Parent: Created child process 10712
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 10712:tid 452] AH00354: Child: Starting 64 worker threads.
+[Tue Feb 13 19:23:07.529106 2024] [php:error] [pid 10712:tid 1088] [client ::1:49473] script 'C:/localhost/index.php' not found or unable to stat
+[Tue Feb 13 19:26:47.590197 2024] [php:error] [pid 10712:tid 1084] [client ::1:49570] script 'C:/localhost/index.php' not found or unable to stat
+[Tue Feb 13 19:31:08.277133 2024] [mpm_winnt:notice] [pid 8136:tid 424] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Feb 13 19:31:10.296089 2024] [mpm_winnt:notice] [pid 10712:tid 452] AH00364: Child: All worker threads have exited.
+[Tue Feb 13 19:31:10.357097 2024] [mpm_winnt:notice] [pid 8136:tid 424] AH00430: Parent: Child process 10712 exited successfully.
+[Tue Feb 13 19:31:30.286685 2024] [mpm_winnt:notice] [pid 10452:tid 432] AH00455: Apache/2.4.58 (Win64) PHP/8.3.2 configured -- resuming normal operations
+[Tue Feb 13 19:31:30.286685 2024] [mpm_winnt:notice] [pid 10452:tid 432] AH00456: Apache Lounge VS17 Server built: Jan 30 2024 19:01:23
+[Tue Feb 13 19:31:30.286685 2024] [core:notice] [pid 10452:tid 432] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Feb 13 19:31:30.286685 2024] [mpm_winnt:notice] [pid 10452:tid 432] AH00418: Parent: Created child process 324
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 324:tid 440] AH00354: Child: Starting 64 worker threads.
+[Tue Feb 13 19:31:46.085489 2024] [php:error] [pid 324:tid 1092] [client ::1:49685] script 'C:/localhost/index.php' not found or unable to stat
+[Tue Feb 13 19:32:07.563753 2024] [mpm_winnt:notice] [pid 10452:tid 432] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Feb 13 19:32:09.578164 2024] [mpm_winnt:notice] [pid 324:tid 440] AH00364: Child: All worker threads have exited.
+[Tue Feb 13 19:32:09.619141 2024] [mpm_winnt:notice] [pid 10452:tid 432] AH00430: Parent: Child process 324 exited successfully.
+[Tue Feb 13 19:32:33.337464 2024] [mpm_winnt:notice] [pid 4500:tid 444] AH00455: Apache/2.4.58 (Win64) PHP/8.3.2 configured -- resuming normal operations
+[Tue Feb 13 19:32:33.337464 2024] [mpm_winnt:notice] [pid 4500:tid 444] AH00456: Apache Lounge VS17 Server built: Jan 30 2024 19:01:23
+[Tue Feb 13 19:32:33.337464 2024] [core:notice] [pid 4500:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Feb 13 19:32:33.353091 2024] [mpm_winnt:notice] [pid 4500:tid 444] AH00418: Parent: Created child process 4712
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 4712:tid 436] AH00354: Child: Starting 64 worker threads.
+[Tue Feb 13 19:32:37.970463 2024] [php:error] [pid 4712:tid 1096] [client ::1:49721] script 'C:/localhost/index.php' not found or unable to stat
+[Tue Feb 13 19:32:46.513844 2024] [mpm_winnt:notice] [pid 4500:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Feb 13 19:32:48.521249 2024] [mpm_winnt:notice] [pid 4712:tid 436] AH00364: Child: All worker threads have exited.
+[Tue Feb 13 19:32:48.560576 2024] [mpm_winnt:notice] [pid 4500:tid 444] AH00430: Parent: Child process 4712 exited successfully.
+[Tue Feb 13 19:34:13.191813 2024] [mpm_winnt:notice] [pid 8492:tid 428] AH00455: Apache/2.4.58 (Win64) PHP/8.3.2 configured -- resuming normal operations
+[Tue Feb 13 19:34:13.191813 2024] [mpm_winnt:notice] [pid 8492:tid 428] AH00456: Apache Lounge VS17 Server built: Jan 30 2024 19:01:23
+[Tue Feb 13 19:34:13.191813 2024] [core:notice] [pid 8492:tid 428] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Feb 13 19:34:13.207435 2024] [mpm_winnt:notice] [pid 8492:tid 428] AH00418: Parent: Created child process 7236
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 7236:tid 428] AH00354: Child: Starting 64 worker threads.
+[Tue Feb 13 19:34:17.194828 2024] [mpm_winnt:notice] [pid 8492:tid 428] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Feb 13 19:34:19.215078 2024] [mpm_winnt:notice] [pid 7236:tid 428] AH00364: Child: All worker threads have exited.
+[Tue Feb 13 19:34:19.261955 2024] [mpm_winnt:notice] [pid 8492:tid 428] AH00430: Parent: Child process 7236 exited successfully.
+[Wed Feb 14 18:39:32.294979 2024] [mpm_winnt:notice] [pid 11084:tid 432] AH00455: Apache/2.4.58 (Win64) PHP/8.3.2 configured -- resuming normal operations
+[Wed Feb 14 18:39:32.294979 2024] [mpm_winnt:notice] [pid 11084:tid 432] AH00456: Apache Lounge VS17 Server built: Jan 30 2024 19:01:23
+[Wed Feb 14 18:39:32.294979 2024] [core:notice] [pid 11084:tid 432] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Feb 14 18:39:32.310603 2024] [mpm_winnt:notice] [pid 11084:tid 432] AH00418: Parent: Created child process 9104
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 9104:tid 428] AH00354: Child: Starting 64 worker threads.
+[Wed Feb 14 18:40:08.745774 2024] [php:error] [pid 9104:tid 1088] [client ::1:57142] script 'C:/localhost/index.php' not found or unable to stat
+[Wed Feb 14 18:58:23.146373 2024] [mpm_winnt:notice] [pid 11084:tid 432] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Feb 14 18:58:25.173919 2024] [mpm_winnt:notice] [pid 9104:tid 428] AH00364: Child: All worker threads have exited.
+[Wed Feb 14 18:58:25.222463 2024] [mpm_winnt:notice] [pid 11084:tid 432] AH00430: Parent: Child process 9104 exited successfully.
+[Wed Feb 14 18:58:53.738637 2024] [mpm_winnt:notice] [pid 4868:tid 416] AH00455: Apache/2.4.58 (Win64) PHP/8.3.2 configured -- resuming normal operations
+[Wed Feb 14 18:58:53.738637 2024] [mpm_winnt:notice] [pid 4868:tid 416] AH00456: Apache Lounge VS17 Server built: Jan 30 2024 19:01:23
+[Wed Feb 14 18:58:53.738637 2024] [core:notice] [pid 4868:tid 416] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Feb 14 18:58:53.738637 2024] [mpm_winnt:notice] [pid 4868:tid 416] AH00418: Parent: Created child process 3252
+[Wed Feb 14 18:58:54.245146 2024] [mpm_winnt:notice] [pid 3252:tid 428] AH00354: Child: Starting 64 worker threads.
+[Thu Feb 22 17:50:05.853887 2024] [core:error] [pid 3252:tid 1092] (20024)The given path is misformatted or contained invalid characters: [client ::1:54017] AH00127: Cannot map GET /display.php%3E HTTP/1.1 to file, referer: http://localhost/index.php
+[Thu Feb 22 18:16:39.022072 2024] [php:error] [pid 3252:tid 1084] [client ::1:55977] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\\localhost\\index.php on line 12, referer: http://localhost/index.php
+[Thu Feb 22 18:17:10.977927 2024] [php:error] [pid 3252:tid 1096] [client ::1:55980] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\\localhost\\index.php on line 12, referer: http://localhost/index.php
+[Thu Feb 22 18:17:30.468864 2024] [php:error] [pid 3252:tid 1096] [client ::1:55984] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\\localhost\\index.php on line 12, referer: http://localhost/index.php
+[Thu Feb 22 18:17:41.509310 2024] [php:error] [pid 3252:tid 1096] [client ::1:55988] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\\localhost\\index.php on line 12, referer: http://localhost/index.php
+[Thu Feb 22 18:17:56.802144 2024] [php:error] [pid 3252:tid 1096] [client ::1:55992] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\\localhost\\index.php on line 12, referer: http://localhost/index.php
+[Thu Feb 22 18:57:01.675999 2024] [php:error] [pid 3252:tid 1084] [client ::1:62150] PHP Fatal error:  Uncaught Error: Undefined constant "first_name" in C:\\localhost\\index.php:19\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\index.php on line 19, referer: http://localhost/index.php
+[Thu Feb 22 18:57:03.781011 2024] [php:error] [pid 3252:tid 1084] [client ::1:62150] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\\localhost\\display.php on line 10, referer: http://localhost/index.php
+[Thu Feb 22 19:02:03.881678 2024] [php:error] [pid 3252:tid 1084] [client ::1:55655] PHP Fatal error:  Uncaught Error: Undefined constant "first_name" in C:\\localhost\\index.php:19\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\index.php on line 19, referer: http://localhost/index.php
+[Thu Feb 22 19:02:07.905415 2024] [php:error] [pid 3252:tid 1084] [client ::1:55657] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\\localhost\\display.php on line 10, referer: http://localhost/index.php
+[Thu Feb 22 19:02:12.647056 2024] [php:error] [pid 3252:tid 1084] [client ::1:55657] PHP Fatal error:  Uncaught Error: Undefined constant "first_name" in C:\\localhost\\index.php:19\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\index.php on line 19, referer: http://localhost/index.php
+[Thu Feb 22 19:02:32.230711 2024] [php:error] [pid 3252:tid 1084] [client ::1:55661] PHP Fatal error:  Uncaught Error: Undefined constant "first_name" in C:\\localhost\\index.php:19\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\index.php on line 19, referer: http://localhost/index.php
+[Thu Feb 22 19:08:59.145809 2024] [php:error] [pid 3252:tid 1084] [client ::1:55886] PHP Fatal error:  Uncaught Error: Undefined constant "lolz" in C:\\localhost\\index.php:19\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\index.php on line 19, referer: http://localhost/index.php
+[Thu Feb 22 19:10:00.421319 2024] [php:error] [pid 3252:tid 1096] [client ::1:55939] PHP Fatal error:  Uncaught Error: Undefined constant "input" in C:\\localhost\\index.php:19\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\index.php on line 19, referer: http://localhost/index.php
+[Thu Feb 22 19:10:04.348388 2024] [php:error] [pid 3252:tid 1096] [client ::1:55939] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\\localhost\\display.php on line 10, referer: http://localhost/index.php
+[Thu Feb 22 19:10:08.051236 2024] [php:error] [pid 3252:tid 1096] [client ::1:55944] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\\localhost\\display.php on line 10, referer: http://localhost/index.php
+[Thu Feb 22 19:10:14.190327 2024] [php:error] [pid 3252:tid 1084] [client ::1:55945] PHP Fatal error:  Uncaught Error: Undefined constant "input" in C:\\localhost\\index.php:19\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\index.php on line 19, referer: http://localhost/index.php
+[Thu Feb 22 19:12:14.881188 2024] [php:warn] [pid 3252:tid 1096] [client ::1:55979] PHP Warning:  Undefined array key "first_name" in C:\\localhost\\index.php on line 19, referer: http://localhost/index.php
+[Thu Feb 22 19:12:21.881843 2024] [php:warn] [pid 3252:tid 1096] [client ::1:55983] PHP Warning:  Undefined array key "first_name" in C:\\localhost\\index.php on line 19, referer: http://localhost/index.php
+[Thu Feb 22 19:12:58.449745 2024] [php:warn] [pid 3252:tid 1096] [client ::1:55989] PHP Warning:  Undefined array key "first_name" in C:\\localhost\\index.php on line 19, referer: http://localhost/index.php
+[Thu Feb 22 19:16:25.645710 2024] [php:warn] [pid 3252:tid 1096] [client ::1:56036] PHP Warning:  Undefined array key "first_name" in C:\\localhost\\index.php on line 19, referer: http://localhost/index.php
+[Thu Feb 22 19:17:15.514988 2024] [php:warn] [pid 3252:tid 1096] [client ::1:56063] PHP Warning:  Undefined array key "first_name" in C:\\localhost\\index.php on line 17, referer: http://localhost/index.php
+[Thu Feb 22 19:19:06.855588 2024] [php:error] [pid 3252:tid 1084] [client ::1:56376] PHP Parse error:  syntax error, unexpected identifier "igiu", expecting "," or ";" in C:\\localhost\\index.php on line 18, referer: http://localhost/index.php
+[Thu Feb 22 19:19:19.876186 2024] [php:error] [pid 3252:tid 1084] [client ::1:56381] PHP Parse error:  syntax error, unexpected double-quoted string "igiu", expecting "," or ";" in C:\\localhost\\index.php on line 18, referer: http://localhost/index.php
+[Wed Feb 28 18:38:57.286269 2024] [php:warn] [pid 3252:tid 1096] [client ::1:51256] PHP Warning:  Undefined array key "first_name" in C:\\localhost\\display.php on line 10, referer: http://localhost/index.php
+[Wed Feb 28 18:40:20.161382 2024] [php:warn] [pid 3252:tid 1084] [client ::1:51280] PHP Warning:  Undefined array key "first_name" in C:\\localhost\\display.php on line 10, referer: http://localhost/index.php
+[Wed Feb 28 18:41:36.035775 2024] [php:warn] [pid 3252:tid 1096] [client ::1:51297] PHP Warning:  Undefined array key "first_name" in C:\\localhost\\display.php on line 10, referer: http://localhost/index.php
+[Wed Feb 28 18:41:36.035775 2024] [php:warn] [pid 3252:tid 1096] [client ::1:51297] PHP Warning:  Undefined array key "last_name" in C:\\localhost\\display.php on line 11, referer: http://localhost/index.php
+[Wed Feb 28 18:43:39.685925 2024] [php:warn] [pid 3252:tid 1084] [client ::1:51372] PHP Warning:  Undefined array key "first_name" in C:\\localhost\\display.php on line 10, referer: http://localhost/index.php
+[Wed Feb 28 18:43:39.685925 2024] [php:warn] [pid 3252:tid 1084] [client ::1:51372] PHP Warning:  Undefined array key "last_name" in C:\\localhost\\display.php on line 11, referer: http://localhost/index.php
+[Wed Feb 28 18:50:20.587784 2024] [php:error] [pid 3252:tid 1096] [client ::1:51543] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\\localhost\\display.php on line 15, referer: http://localhost/index.php
+[Wed Feb 28 18:50:24.565946 2024] [php:error] [pid 3252:tid 1096] [client ::1:51543] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\\localhost\\display.php on line 15, referer: http://localhost/index.php
+[Wed Feb 28 19:02:44.578395 2024] [php:warn] [pid 3252:tid 1096] [client ::1:51994] PHP Warning:  Uninitialized string offset 0 in C:\\localhost\\display.php on line 12, referer: http://localhost/index.php
+[Wed Feb 28 19:06:28.090580 2024] [php:error] [pid 3252:tid 1096] [client ::1:52014] PHP Fatal error:  Uncaught Error: Call to undefined function lench() in C:\\localhost\\display.php:13\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\display.php on line 13, referer: http://localhost/index.php
+[Wed Feb 28 19:08:34.476133 2024] [php:error] [pid 3252:tid 1084] [client ::1:52171] PHP Fatal error:  Uncaught Error: Undefined constant "i" in C:\\localhost\\display.php:14\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\display.php on line 14, referer: http://localhost/index.php
+[Wed Feb 28 19:08:42.283491 2024] [php:error] [pid 3252:tid 1084] [client ::1:52177] PHP Fatal error:  Uncaught Error: Undefined constant "i" in C:\\localhost\\display.php:14\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\display.php on line 14, referer: http://localhost/index.php
+[Wed Feb 28 19:12:02.571701 2024] [php:error] [pid 3252:tid 1096] [client ::1:52276] PHP Parse error:  syntax error, unexpected token "for" in C:\\localhost\\display.php on line 13, referer: http://localhost/index.php
+[Wed Feb 28 19:12:22.284798 2024] [php:error] [pid 3252:tid 1096] [client ::1:52284] PHP Fatal error:  Uncaught Error: Undefined constant "i" in C:\\localhost\\display.php:14\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\display.php on line 14, referer: http://localhost/index.php
+[Wed Feb 28 19:16:04.772128 2024] [php:error] [pid 3252:tid 1084] [client ::1:52314] PHP Parse error:  syntax error, unexpected token ">" in C:\\localhost\\display.php on line 14, referer: http://localhost/index.php
+[Wed Feb 28 19:16:32.335037 2024] [php:error] [pid 3252:tid 1084] [client ::1:52325] PHP Parse error:  syntax error, unexpected token ">" in C:\\localhost\\display.php on line 14, referer: http://localhost/index.php
+[Wed Feb 28 19:18:52.097901 2024] [php:error] [pid 3252:tid 1096] [client ::1:52330] PHP Parse error:  syntax error, unexpected double-quoted string "<br>", expecting "," or ";" in C:\\localhost\\display.php on line 14, referer: http://localhost/index.php
+[Wed Feb 28 19:31:28.561617 2024] [php:error] [pid 3252:tid 1096] [client ::1:52476] PHP Parse error:  syntax error, unexpected identifier "px", expecting "," or ";" in C:\\localhost\\display.php on line 15, referer: http://localhost/index.php
+[Wed Feb 28 19:33:41.888719 2024] [php:error] [pid 3252:tid 1084] [client ::1:52495] PHP Parse error:  syntax error, unexpected variable "$nam", expecting "," or ";" in C:\\localhost\\display.php on line 15, referer: http://localhost/index.php
+[Wed Feb 28 19:45:07.778464 2024] [php:error] [pid 3252:tid 1084] [client ::1:52569] PHP Parse error:  syntax error, unexpected token "for", expecting "," or ";" in C:\\localhost\\display.php on line 20, referer: http://localhost/index.php
+[Wed Feb 28 19:51:25.212733 2024] [php:error] [pid 3252:tid 1084] [client ::1:52920] PHP Parse error:  syntax error, unexpected token "," in C:\\localhost\\display.php on line 13, referer: http://localhost/index.php
+[Wed Feb 28 19:51:28.729768 2024] [php:error] [pid 3252:tid 1084] [client ::1:52922] PHP Parse error:  syntax error, unexpected token "," in C:\\localhost\\display.php on line 13, referer: http://localhost/index.php
+[Wed Feb 28 19:51:54.856737 2024] [php:error] [pid 3252:tid 1096] [client ::1:52926] PHP Parse error:  syntax error, unexpected variable "$color_nam2", expecting "," or ";" in C:\\localhost\\display.php on line 22, referer: http://localhost/index.php
+[Wed Feb 28 19:52:51.074729 2024] [php:error] [pid 3252:tid 1084] [client ::1:52932] PHP Parse error:  syntax error, unexpected variable "$color_nam2", expecting "," or ";" in C:\\localhost\\display.php on line 22, referer: http://localhost/index.php
+[Wed Feb 28 19:53:52.312936 2024] [php:error] [pid 3252:tid 1084] [client ::1:52939] PHP Parse error:  syntax error, unexpected variable "$color_nam2", expecting "," or ";" in C:\\localhost\\display.php on line 22, referer: http://localhost/index.php
+[Wed Feb 28 19:54:37.017517 2024] [php:error] [pid 3252:tid 1084] [client ::1:52945] PHP Parse error:  syntax error, unexpected variable "$color_nam2", expecting "," or ";" in C:\\localhost\\display.php on line 22, referer: http://localhost/index.php
+[Wed Feb 28 20:05:52.947633 2024] [php:error] [pid 3252:tid 1084] [client ::1:59230] PHP Parse error:  syntax error, unexpected variable "$j", expecting ")" in C:\\localhost\\display.php on line 21, referer: http://localhost/index.php
+[Wed Feb 28 20:26:23.338732 2024] [php:error] [pid 3252:tid 1096] [client ::1:60236] PHP Parse error:  syntax error, unexpected token "for" in C:\\localhost\\display.php on line 16, referer: http://localhost/index.php
+[Wed Feb 28 20:38:17.878381 2024] [php:error] [pid 3252:tid 1096] [client ::1:60826] PHP Parse error:  syntax error, unexpected identifier "border", expecting "," or ";" in C:\\localhost\\display.php on line 29, referer: http://localhost/index.php
+[Wed Feb 28 20:42:29.660363 2024] [php:error] [pid 3252:tid 1096] [client ::1:61277] PHP Fatal error:  Uncaught Error: Undefined constant "nam" in C:\\localhost\\display.php:33\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\display.php on line 33, referer: http://localhost/index.php
+[Wed Feb 28 20:42:46.411302 2024] [php:error] [pid 3252:tid 1096] [client ::1:61283] PHP Fatal error:  Uncaught Error: Undefined constant "j" in C:\\localhost\\display.php:33\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\display.php on line 33, referer: http://localhost/index.php
+[Wed Feb 28 20:42:56.838963 2024] [php:warn] [pid 3252:tid 1084] [client ::1:61286] PHP Warning:  Uninitialized string offset 0 in C:\\localhost\\display.php on line 33, referer: http://localhost/index.php
+[Wed Feb 28 20:42:56.839409 2024] [php:warn] [pid 3252:tid 1084] [client ::1:61286] PHP Warning:  Uninitialized string offset 1 in C:\\localhost\\display.php on line 33, referer: http://localhost/index.php
+[Wed Feb 28 20:42:56.839409 2024] [php:warn] [pid 3252:tid 1084] [client ::1:61286] PHP Warning:  Uninitialized string offset 2 in C:\\localhost\\display.php on line 33, referer: http://localhost/index.php
+[Wed Feb 28 20:42:56.839409 2024] [php:warn] [pid 3252:tid 1084] [client ::1:61286] PHP Warning:  Uninitialized string offset 3 in C:\\localhost\\display.php on line 33, referer: http://localhost/index.php
+[Wed Feb 28 20:42:56.839409 2024] [php:warn] [pid 3252:tid 1084] [client ::1:61286] PHP Warning:  Uninitialized string offset 4 in C:\\localhost\\display.php on line 33, referer: http://localhost/index.php
+[Wed Feb 28 20:42:56.839409 2024] [php:warn] [pid 3252:tid 1084] [client ::1:61286] PHP Warning:  Uninitialized string offset 5 in C:\\localhost\\display.php on line 33, referer: http://localhost/index.php
+[Wed Feb 28 20:42:56.839409 2024] [php:warn] [pid 3252:tid 1084] [client ::1:61286] PHP Warning:  Uninitialized string offset 0 in C:\\localhost\\display.php on line 33, referer: http://localhost/index.php
+[Wed Feb 28 20:42:56.839409 2024] [php:warn] [pid 3252:tid 1084] [client ::1:61286] PHP Warning:  Uninitialized string offset 1 in C:\\localhost\\display.php on line 33, referer: http://localhost/index.php
+[Wed Feb 28 20:42:56.839409 2024] [php:warn] [pid 3252:tid 1084] [client ::1:61286] PHP Warning:  Uninitialized string offset 2 in C:\\localhost\\display.php on line 33, referer: http://localhost/index.php
+[Wed Feb 28 20:42:56.839409 2024] [php:warn] [pid 3252:tid 1084] [client ::1:61286] PHP Warning:  Uninitialized string offset 3 in C:\\localhost\\display.php on line 33, referer: http://localhost/index.php
+[Wed Feb 28 20:42:56.839409 2024] [php:warn] [pid 3252:tid 1084] [client ::1:61286] PHP Warning:  Uninitialized string offset 4 in C:\\localhost\\display.php on line 33, referer: http://localhost/index.php
+[Wed Feb 28 20:42:56.839409 2024] [php:warn] [pid 3252:tid 1084] [client ::1:61286] PHP Warning:  Uninitialized string offset 5 in C:\\localhost\\display.php on line 33, referer: http://localhost/index.php
+[Wed Feb 28 20:42:56.839409 2024] [php:warn] [pid 3252:tid 1084] [client ::1:61286] PHP Warning:  Uninitialized string offset 0 in C:\\localhost\\display.php on line 33, referer: http://localhost/index.php
+[Wed Feb 28 20:42:56.839409 2024] [php:warn] [pid 3252:tid 1084] [client ::1:61286] PHP Warning:  Uninitialized string offset 1 in C:\\localhost\\display.php on line 33, referer: http://localhost/index.php
+[Wed Feb 28 20:42:56.839409 2024] [php:warn] [pid 3252:tid 1084] [client ::1:61286] PHP Warning:  Uninitialized string offset 2 in C:\\localhost\\display.php on line 33, referer: http://localhost/index.php
+[Wed Feb 28 20:42:56.839409 2024] [php:warn] [pid 3252:tid 1084] [client ::1:61286] PHP Warning:  Uninitialized string offset 3 in C:\\localhost\\display.php on line 33, referer: http://localhost/index.php
+[Wed Feb 28 20:42:56.839409 2024] [php:warn] [pid 3252:tid 1084] [client ::1:61286] PHP Warning:  Uninitialized string offset 4 in C:\\localhost\\display.php on line 33, referer: http://localhost/index.php
+[Wed Feb 28 20:42:56.839409 2024] [php:warn] [pid 3252:tid 1084] [client ::1:61286] PHP Warning:  Uninitialized string offset 5 in C:\\localhost\\display.php on line 33, referer: http://localhost/index.php
+[Wed Feb 28 20:42:56.839409 2024] [php:warn] [pid 3252:tid 1084] [client ::1:61286] PHP Warning:  Uninitialized string offset 0 in C:\\localhost\\display.php on line 33, referer: http://localhost/index.php
+[Wed Feb 28 20:42:56.839409 2024] [php:warn] [pid 3252:tid 1084] [client ::1:61286] PHP Warning:  Uninitialized string offset 1 in C:\\localhost\\display.php on line 33, referer: http://localhost/index.php
+[Wed Feb 28 20:42:56.839409 2024] [php:warn] [pid 3252:tid 1084] [client ::1:61286] PHP Warning:  Uninitialized string offset 2 in C:\\localhost\\display.php on line 33, referer: http://localhost/index.php
+[Wed Feb 28 20:42:56.839409 2024] [php:warn] [pid 3252:tid 1084] [client ::1:61286] PHP Warning:  Uninitialized string offset 3 in C:\\localhost\\display.php on line 33, referer: http://localhost/index.php
+[Wed Feb 28 20:42:56.839409 2024] [php:warn] [pid 3252:tid 1084] [client ::1:61286] PHP Warning:  Uninitialized string offset 4 in C:\\localhost\\display.php on line 33, referer: http://localhost/index.php
+[Wed Feb 28 20:42:56.839409 2024] [php:warn] [pid 3252:tid 1084] [client ::1:61286] PHP Warning:  Uninitialized string offset 5 in C:\\localhost\\display.php on line 33, referer: http://localhost/index.php
+[Wed Feb 28 20:42:56.839409 2024] [php:warn] [pid 3252:tid 1084] [client ::1:61286] PHP Warning:  Uninitialized string offset 0 in C:\\localhost\\display.php on line 33, referer: http://localhost/index.php
+[Wed Feb 28 20:42:56.839409 2024] [php:warn] [pid 3252:tid 1084] [client ::1:61286] PHP Warning:  Uninitialized string offset 1 in C:\\localhost\\display.php on line 33, referer: http://localhost/index.php
+[Wed Feb 28 20:42:56.839409 2024] [php:warn] [pid 3252:tid 1084] [client ::1:61286] PHP Warning:  Uninitialized string offset 2 in C:\\localhost\\display.php on line 33, referer: http://localhost/index.php
+[Wed Feb 28 20:42:56.839409 2024] [php:warn] [pid 3252:tid 1084] [client ::1:61286] PHP Warning:  Uninitialized string offset 3 in C:\\localhost\\display.php on line 33, referer: http://localhost/index.php
+[Wed Feb 28 20:42:56.839409 2024] [php:warn] [pid 3252:tid 1084] [client ::1:61286] PHP Warning:  Uninitialized string offset 4 in C:\\localhost\\display.php on line 33, referer: http://localhost/index.php
+[Wed Feb 28 20:42:56.839409 2024] [php:warn] [pid 3252:tid 1084] [client ::1:61286] PHP Warning:  Uninitialized string offset 5 in C:\\localhost\\display.php on line 33, referer: http://localhost/index.php
+[Wed Feb 28 20:42:56.839409 2024] [php:warn] [pid 3252:tid 1084] [client ::1:61286] PHP Warning:  Uninitialized string offset 0 in C:\\localhost\\display.php on line 33, referer: http://localhost/index.php
+[Wed Feb 28 20:42:56.839409 2024] [php:warn] [pid 3252:tid 1084] [client ::1:61286] PHP Warning:  Uninitialized string offset 1 in C:\\localhost\\display.php on line 33, referer: http://localhost/index.php
+[Wed Feb 28 20:42:56.839807 2024] [php:warn] [pid 3252:tid 1084] [client ::1:61286] PHP Warning:  Uninitialized string offset 2 in C:\\localhost\\display.php on line 33, referer: http://localhost/index.php
+[Wed Feb 28 20:42:56.839807 2024] [php:warn] [pid 3252:tid 1084] [client ::1:61286] PHP Warning:  Uninitialized string offset 3 in C:\\localhost\\display.php on line 33, referer: http://localhost/index.php
+[Wed Feb 28 20:42:56.839807 2024] [php:warn] [pid 3252:tid 1084] [client ::1:61286] PHP Warning:  Uninitialized string offset 4 in C:\\localhost\\display.php on line 33, referer: http://localhost/index.php
+[Wed Feb 28 20:42:56.839807 2024] [php:warn] [pid 3252:tid 1084] [client ::1:61286] PHP Warning:  Uninitialized string offset 5 in C:\\localhost\\display.php on line 33, referer: http://localhost/index.php
+[Wed Feb 28 20:44:42.791208 2024] [php:warn] [pid 3252:tid 1084] [client ::1:61293] PHP Warning:  Trying to access array offset on int in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:44:42.791208 2024] [php:warn] [pid 3252:tid 1084] [client ::1:61293] PHP Warning:  Trying to access array offset on int in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:44:42.791208 2024] [php:warn] [pid 3252:tid 1084] [client ::1:61293] PHP Warning:  Trying to access array offset on int in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:44:42.791208 2024] [php:warn] [pid 3252:tid 1084] [client ::1:61293] PHP Warning:  Trying to access array offset on int in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:44:42.791208 2024] [php:warn] [pid 3252:tid 1084] [client ::1:61293] PHP Warning:  Trying to access array offset on int in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:44:42.791208 2024] [php:warn] [pid 3252:tid 1084] [client ::1:61293] PHP Warning:  Trying to access array offset on int in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:44:42.791208 2024] [php:warn] [pid 3252:tid 1084] [client ::1:61293] PHP Warning:  Trying to access array offset on int in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:44:42.791208 2024] [php:warn] [pid 3252:tid 1084] [client ::1:61293] PHP Warning:  Trying to access array offset on int in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:44:42.791208 2024] [php:warn] [pid 3252:tid 1084] [client ::1:61293] PHP Warning:  Trying to access array offset on int in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:44:42.791208 2024] [php:warn] [pid 3252:tid 1084] [client ::1:61293] PHP Warning:  Trying to access array offset on int in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:44:42.791208 2024] [php:warn] [pid 3252:tid 1084] [client ::1:61293] PHP Warning:  Trying to access array offset on int in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:44:42.791208 2024] [php:warn] [pid 3252:tid 1084] [client ::1:61293] PHP Warning:  Trying to access array offset on int in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:44:42.791208 2024] [php:warn] [pid 3252:tid 1084] [client ::1:61293] PHP Warning:  Trying to access array offset on int in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:44:42.791208 2024] [php:warn] [pid 3252:tid 1084] [client ::1:61293] PHP Warning:  Trying to access array offset on int in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:44:42.791208 2024] [php:warn] [pid 3252:tid 1084] [client ::1:61293] PHP Warning:  Trying to access array offset on int in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:44:42.791208 2024] [php:warn] [pid 3252:tid 1084] [client ::1:61293] PHP Warning:  Trying to access array offset on int in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:44:42.791208 2024] [php:warn] [pid 3252:tid 1084] [client ::1:61293] PHP Warning:  Trying to access array offset on int in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:44:42.791208 2024] [php:warn] [pid 3252:tid 1084] [client ::1:61293] PHP Warning:  Trying to access array offset on int in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:44:42.791208 2024] [php:warn] [pid 3252:tid 1084] [client ::1:61293] PHP Warning:  Trying to access array offset on int in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:44:42.791208 2024] [php:warn] [pid 3252:tid 1084] [client ::1:61293] PHP Warning:  Trying to access array offset on int in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:44:42.791208 2024] [php:warn] [pid 3252:tid 1084] [client ::1:61293] PHP Warning:  Trying to access array offset on int in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:44:42.791208 2024] [php:warn] [pid 3252:tid 1084] [client ::1:61293] PHP Warning:  Trying to access array offset on int in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:44:42.791208 2024] [php:warn] [pid 3252:tid 1084] [client ::1:61293] PHP Warning:  Trying to access array offset on int in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:44:42.791208 2024] [php:warn] [pid 3252:tid 1084] [client ::1:61293] PHP Warning:  Trying to access array offset on int in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:44:42.791208 2024] [php:warn] [pid 3252:tid 1084] [client ::1:61293] PHP Warning:  Trying to access array offset on int in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:44:42.791208 2024] [php:warn] [pid 3252:tid 1084] [client ::1:61293] PHP Warning:  Trying to access array offset on int in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:44:42.791208 2024] [php:warn] [pid 3252:tid 1084] [client ::1:61293] PHP Warning:  Trying to access array offset on int in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:44:42.791208 2024] [php:warn] [pid 3252:tid 1084] [client ::1:61293] PHP Warning:  Trying to access array offset on int in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:44:42.791208 2024] [php:warn] [pid 3252:tid 1084] [client ::1:61293] PHP Warning:  Trying to access array offset on int in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:44:42.791208 2024] [php:warn] [pid 3252:tid 1084] [client ::1:61293] PHP Warning:  Trying to access array offset on int in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:44:42.791208 2024] [php:warn] [pid 3252:tid 1084] [client ::1:61293] PHP Warning:  Trying to access array offset on int in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:44:42.791208 2024] [php:warn] [pid 3252:tid 1084] [client ::1:61293] PHP Warning:  Trying to access array offset on int in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:44:42.791208 2024] [php:warn] [pid 3252:tid 1084] [client ::1:61293] PHP Warning:  Trying to access array offset on int in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:44:42.791208 2024] [php:warn] [pid 3252:tid 1084] [client ::1:61293] PHP Warning:  Trying to access array offset on int in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:44:42.791208 2024] [php:warn] [pid 3252:tid 1084] [client ::1:61293] PHP Warning:  Trying to access array offset on int in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:44:42.791208 2024] [php:warn] [pid 3252:tid 1084] [client ::1:61293] PHP Warning:  Trying to access array offset on int in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:45:03.976946 2024] [php:warn] [pid 3252:tid 1096] [client ::1:61299] PHP Warning:  Undefined variable $rand in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:45:03.976946 2024] [php:warn] [pid 3252:tid 1096] [client ::1:61299] PHP Warning:  Trying to access array offset on null in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:45:03.976946 2024] [php:warn] [pid 3252:tid 1096] [client ::1:61299] PHP Warning:  Undefined variable $rand in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:45:03.976946 2024] [php:warn] [pid 3252:tid 1096] [client ::1:61299] PHP Warning:  Trying to access array offset on null in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:45:03.976946 2024] [php:warn] [pid 3252:tid 1096] [client ::1:61299] PHP Warning:  Undefined variable $rand in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:45:03.976946 2024] [php:warn] [pid 3252:tid 1096] [client ::1:61299] PHP Warning:  Trying to access array offset on null in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:45:03.976946 2024] [php:warn] [pid 3252:tid 1096] [client ::1:61299] PHP Warning:  Undefined variable $rand in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:45:03.976946 2024] [php:warn] [pid 3252:tid 1096] [client ::1:61299] PHP Warning:  Trying to access array offset on null in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:45:03.976946 2024] [php:warn] [pid 3252:tid 1096] [client ::1:61299] PHP Warning:  Undefined variable $rand in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:45:03.976946 2024] [php:warn] [pid 3252:tid 1096] [client ::1:61299] PHP Warning:  Trying to access array offset on null in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:45:03.976946 2024] [php:warn] [pid 3252:tid 1096] [client ::1:61299] PHP Warning:  Undefined variable $rand in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:45:03.976946 2024] [php:warn] [pid 3252:tid 1096] [client ::1:61299] PHP Warning:  Trying to access array offset on null in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:45:03.976946 2024] [php:warn] [pid 3252:tid 1096] [client ::1:61299] PHP Warning:  Undefined variable $rand in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:45:03.976946 2024] [php:warn] [pid 3252:tid 1096] [client ::1:61299] PHP Warning:  Trying to access array offset on null in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:45:03.976946 2024] [php:warn] [pid 3252:tid 1096] [client ::1:61299] PHP Warning:  Undefined variable $rand in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:45:03.976946 2024] [php:warn] [pid 3252:tid 1096] [client ::1:61299] PHP Warning:  Trying to access array offset on null in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:45:03.976946 2024] [php:warn] [pid 3252:tid 1096] [client ::1:61299] PHP Warning:  Undefined variable $rand in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:45:03.976946 2024] [php:warn] [pid 3252:tid 1096] [client ::1:61299] PHP Warning:  Trying to access array offset on null in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:45:03.976946 2024] [php:warn] [pid 3252:tid 1096] [client ::1:61299] PHP Warning:  Undefined variable $rand in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:45:03.976946 2024] [php:warn] [pid 3252:tid 1096] [client ::1:61299] PHP Warning:  Trying to access array offset on null in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:45:03.976946 2024] [php:warn] [pid 3252:tid 1096] [client ::1:61299] PHP Warning:  Undefined variable $rand in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:45:03.976946 2024] [php:warn] [pid 3252:tid 1096] [client ::1:61299] PHP Warning:  Trying to access array offset on null in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:45:03.976946 2024] [php:warn] [pid 3252:tid 1096] [client ::1:61299] PHP Warning:  Undefined variable $rand in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:45:03.976946 2024] [php:warn] [pid 3252:tid 1096] [client ::1:61299] PHP Warning:  Trying to access array offset on null in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:45:03.976946 2024] [php:warn] [pid 3252:tid 1096] [client ::1:61299] PHP Warning:  Undefined variable $rand in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:45:03.976946 2024] [php:warn] [pid 3252:tid 1096] [client ::1:61299] PHP Warning:  Trying to access array offset on null in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:45:03.976946 2024] [php:warn] [pid 3252:tid 1096] [client ::1:61299] PHP Warning:  Undefined variable $rand in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:45:03.976946 2024] [php:warn] [pid 3252:tid 1096] [client ::1:61299] PHP Warning:  Trying to access array offset on null in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:45:03.976946 2024] [php:warn] [pid 3252:tid 1096] [client ::1:61299] PHP Warning:  Undefined variable $rand in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:45:03.976946 2024] [php:warn] [pid 3252:tid 1096] [client ::1:61299] PHP Warning:  Trying to access array offset on null in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:45:03.976946 2024] [php:warn] [pid 3252:tid 1096] [client ::1:61299] PHP Warning:  Undefined variable $rand in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:45:03.976946 2024] [php:warn] [pid 3252:tid 1096] [client ::1:61299] PHP Warning:  Trying to access array offset on null in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:45:03.976946 2024] [php:warn] [pid 3252:tid 1096] [client ::1:61299] PHP Warning:  Undefined variable $rand in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:45:03.977402 2024] [php:warn] [pid 3252:tid 1096] [client ::1:61299] PHP Warning:  Trying to access array offset on null in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:45:03.977402 2024] [php:warn] [pid 3252:tid 1096] [client ::1:61299] PHP Warning:  Undefined variable $rand in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:45:03.977402 2024] [php:warn] [pid 3252:tid 1096] [client ::1:61299] PHP Warning:  Trying to access array offset on null in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:45:03.977402 2024] [php:warn] [pid 3252:tid 1096] [client ::1:61299] PHP Warning:  Undefined variable $rand in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:45:03.977402 2024] [php:warn] [pid 3252:tid 1096] [client ::1:61299] PHP Warning:  Trying to access array offset on null in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:45:03.977402 2024] [php:warn] [pid 3252:tid 1096] [client ::1:61299] PHP Warning:  Undefined variable $rand in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:45:03.977402 2024] [php:warn] [pid 3252:tid 1096] [client ::1:61299] PHP Warning:  Trying to access array offset on null in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:45:03.977402 2024] [php:warn] [pid 3252:tid 1096] [client ::1:61299] PHP Warning:  Undefined variable $rand in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:45:03.977402 2024] [php:warn] [pid 3252:tid 1096] [client ::1:61299] PHP Warning:  Trying to access array offset on null in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:45:03.977402 2024] [php:warn] [pid 3252:tid 1096] [client ::1:61299] PHP Warning:  Undefined variable $rand in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:45:03.977402 2024] [php:warn] [pid 3252:tid 1096] [client ::1:61299] PHP Warning:  Trying to access array offset on null in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:45:03.977402 2024] [php:warn] [pid 3252:tid 1096] [client ::1:61299] PHP Warning:  Undefined variable $rand in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:45:03.977402 2024] [php:warn] [pid 3252:tid 1096] [client ::1:61299] PHP Warning:  Trying to access array offset on null in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:45:03.977402 2024] [php:warn] [pid 3252:tid 1096] [client ::1:61299] PHP Warning:  Undefined variable $rand in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:45:03.977402 2024] [php:warn] [pid 3252:tid 1096] [client ::1:61299] PHP Warning:  Trying to access array offset on null in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:45:03.977402 2024] [php:warn] [pid 3252:tid 1096] [client ::1:61299] PHP Warning:  Undefined variable $rand in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:45:03.977402 2024] [php:warn] [pid 3252:tid 1096] [client ::1:61299] PHP Warning:  Trying to access array offset on null in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:45:03.977402 2024] [php:warn] [pid 3252:tid 1096] [client ::1:61299] PHP Warning:  Undefined variable $rand in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:45:03.977402 2024] [php:warn] [pid 3252:tid 1096] [client ::1:61299] PHP Warning:  Trying to access array offset on null in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:45:03.977402 2024] [php:warn] [pid 3252:tid 1096] [client ::1:61299] PHP Warning:  Undefined variable $rand in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:45:03.977402 2024] [php:warn] [pid 3252:tid 1096] [client ::1:61299] PHP Warning:  Trying to access array offset on null in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:45:03.977402 2024] [php:warn] [pid 3252:tid 1096] [client ::1:61299] PHP Warning:  Undefined variable $rand in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:45:03.977402 2024] [php:warn] [pid 3252:tid 1096] [client ::1:61299] PHP Warning:  Trying to access array offset on null in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:45:03.977402 2024] [php:warn] [pid 3252:tid 1096] [client ::1:61299] PHP Warning:  Undefined variable $rand in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:45:03.977402 2024] [php:warn] [pid 3252:tid 1096] [client ::1:61299] PHP Warning:  Trying to access array offset on null in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:45:03.977402 2024] [php:warn] [pid 3252:tid 1096] [client ::1:61299] PHP Warning:  Undefined variable $rand in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:45:03.977402 2024] [php:warn] [pid 3252:tid 1096] [client ::1:61299] PHP Warning:  Trying to access array offset on null in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:45:03.977402 2024] [php:warn] [pid 3252:tid 1096] [client ::1:61299] PHP Warning:  Undefined variable $rand in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:45:03.977402 2024] [php:warn] [pid 3252:tid 1096] [client ::1:61299] PHP Warning:  Trying to access array offset on null in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:45:03.977402 2024] [php:warn] [pid 3252:tid 1096] [client ::1:61299] PHP Warning:  Undefined variable $rand in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:45:03.977402 2024] [php:warn] [pid 3252:tid 1096] [client ::1:61299] PHP Warning:  Trying to access array offset on null in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:45:03.977402 2024] [php:warn] [pid 3252:tid 1096] [client ::1:61299] PHP Warning:  Undefined variable $rand in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:45:03.977402 2024] [php:warn] [pid 3252:tid 1096] [client ::1:61299] PHP Warning:  Trying to access array offset on null in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:45:03.977402 2024] [php:warn] [pid 3252:tid 1096] [client ::1:61299] PHP Warning:  Undefined variable $rand in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:45:03.977402 2024] [php:warn] [pid 3252:tid 1096] [client ::1:61299] PHP Warning:  Trying to access array offset on null in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:45:03.977402 2024] [php:warn] [pid 3252:tid 1096] [client ::1:61299] PHP Warning:  Undefined variable $rand in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:45:03.977402 2024] [php:warn] [pid 3252:tid 1096] [client ::1:61299] PHP Warning:  Trying to access array offset on null in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:45:03.977402 2024] [php:warn] [pid 3252:tid 1096] [client ::1:61299] PHP Warning:  Undefined variable $rand in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
+[Wed Feb 28 20:45:03.977402 2024] [php:warn] [pid 3252:tid 1096] [client ::1:61299] PHP Warning:  Trying to access array offset on null in C:\\localhost\\display.php on line 34, referer: http://localhost/index.php
